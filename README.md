@@ -1,6 +1,6 @@
 # hog
 
-Find what's hogging your disk. Read-only: never deletes anything.
+Find what's hogging your disk, read only.
 
 ```
 $ hog ~
