@@ -15,7 +15,15 @@ $ hog ~
 
 ## Install
 
-Requires Rust 1.85+.
+Linux (x86_64 / aarch64), no Rust needed:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/evanofslack/hog/main/install.sh | sh
+```
+
+Installs to `/usr/local/bin` if writable, otherwise `~/.local/bin`. Prebuilt binaries are also on the [releases](https://github.com/evanofslack/hog/releases) page.
+
+From source (Rust 1.85+):
 
 ```sh
 cargo install --git https://github.com/evanofslack/hog
